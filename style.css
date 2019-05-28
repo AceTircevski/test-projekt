@@ -20,8 +20,8 @@ h4 {
 
 .flex-container {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content:center;
+  flex-wrap:wrap;
 }
 
 /* Header Section */
@@ -102,7 +102,7 @@ nav span {
 
 /* Location Section */
 
-.flex-container.locations {
+.flex-container-locations {
   padding-top: 5px;
 }
 
