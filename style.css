@@ -90,6 +90,7 @@ nav span {
 .item img {
   height: 200px;
   margin: 10px;
+  
   display: block;
 }
 
@@ -109,12 +110,15 @@ nav span {
 #locations {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
+
   padding-top: 70px;
+
 }
 
 #locations .flex-container {
   margin: auto;
   width: 1100px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
 }
 
 .location {
@@ -125,7 +129,7 @@ nav span {
   flex-basis: 280px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
 }
 
 /* Contact Section */
@@ -139,4 +143,5 @@ nav span {
 footer {
   text-align: left;
   padding-left: 20px;
+  font-size: 40px;
 }
